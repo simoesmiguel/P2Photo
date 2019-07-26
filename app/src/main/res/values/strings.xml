@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">P2Photo</string>
+    <string name="title_activity_login_in">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">example@email.com</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="text_user">User</string>
+    <string name="text_password">Password</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+
+    <!--String for register -->
+    <string name="prompt_password_comfirm">Password confirmation</string>
+    <string name="text_confirm_button_register">Confirm</string>
+    <string name="text_cancel_button_register">Cancel</string>
+
+
+    <!-- Album list Text -->
+    <string name="shared_with_initial">Shared with:</string>
+    <string name="shared_with_conjuction">and</string>
+    <string name="no_album_available">No album created</string>
+    <string name="title_activity_view_album">ViewAlbumActivity</string>
+    <string name="title_activity_view_photo">ViewPhotoActivity</string>
+    <string name="title_activity_album_creation">AlbumCreationActivity</string>
+    <string name="title_activity_albuns_activity">ViewAlbuns</string>
+    <string name="title_activity_empty">EmptyInitialActivity</string>
+
+    <!-- Album Creation -->
+    <string name="text_album_title">Album Title</string>
+    <string name="prompt_album_title">Title</string>
+    <string name="next_step">Next</string>
+    <string name="back_step">Back</string>
+    <string name="cancel_step">Cancel</string>
+    <string name="confirm_setp">Confirm</string>
+    <!-- TODO try to add unicode sybols to words in album creation-->
+
+    <!-- Users Manipulation -->
+    <string name="title_added_users">Added users</string>
+    <string name="title_users_to_add">Available users</string>
+    <string name="appName">P2Photo</string>
+    <string name="title_activity_album_user_adding">AlbumUserAddingActivity</string>
+
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AlbumUserAddingActivity"
+    tools:showIn="@layout/activity_album_user_adding">
+
+    <include
+        android:id="@+id/user_adding_lists"
+        layout="@layout/user_list"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_confirm"
+        style="?android:textAppearanceSmall"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="@dimen/activity_log_in_side_margin"
+        android:layout_marginLeft="@dimen/activity_log_in_side_margin"
+        android:layout_marginEnd="@dimen/activity_log_in_side_margin"
+        android:layout_marginRight="@dimen/activity_log_in_side_margin"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorGreenSh1"
+        android:text="@string/text_confirm_button_register"
+        android:textColor="@color/colorWhiteSh1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        style="?android:textAppearanceSmall"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="@dimen/activity_log_in_side_margin"
+        android:layout_marginLeft="@dimen/activity_log_in_side_margin"
+        android:layout_marginEnd="@dimen/activity_log_in_side_margin"
+        android:layout_marginRight="@dimen/activity_log_in_side_margin"
+        android:layout_marginBottom="64dp"
+        android:background="@android:color/white"
+        android:text="@string/text_cancel_button_register"
+        android:textColor="@color/colorRedSh1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2291ff</color>
+    <color name="colorPrimaryDark">#05a</color>
+    <color name="colorAccent">#66b2ff</color>
+
+    <color name="colorGreenSh1">#217C7E</color>
+    <color name="colorWhiteSh1">#F3EFE0</color>
+    <color name="colorBlueSh1">#3399FF</color>
+    <color name="colorRedSh1">#9A3334</color>
+
+
+    <!-- gray scales -->
+    <color name="strongGray">#333333</color>
+    <color name="softGray">#999999</color>
+    <color name="superSoftGray">#CCCCCC</color>
+
+
+    <!-- dot colors -->
+    <color name="dot_inactive">#666666</color>
+    <color name="dot_active">#CCCCCC</color>
+
+
+
+</resources>

@@ -1,0 +1,141 @@
+MM = Main Menu
+
+F2 Log in/ Log out:
+	Story:
+	- Welcome Screen
+	- Login Screen with option to Sign up:
+		- Possible out comes for login:
+			- None existing user
+			- Wrong Password
+			- Sucessufull login go to @MM
+		- If Sign up button pressed go to @F1 
+
+	Graphical:
+		- Temporary welcome screen
+		- Name of the App on the top
+		- Login Box and Password box
+		- Visible button for Sign up
+		- Space for keyboard 
+		- Wrong password and username non annoying warnings
+		- Waiting for answer grayscreen
+
+	Common Graphical decissions:
+		- Decide on main text color
+		- Decide on roundness of corneers in general
+		- Decide on App name font
+	
+	Backend server:
+		- Contact the server
+		- Check if the username and password correspond
+		- Give the right answer
+		- Generate a new session id
+		- keep a record associated the session id with the username
+
+	Backend client:
+		- send the login info to the server
+		- wait for the answer
+		- store the session id properly
+
+F1. Sign up:
+	
+	Story:
+		- 3 input boxs with the user name, password and passord comfirmation
+		- Cancel button that goes to @F2
+		- Confirm button that:
+			- stays at the F1 if any input is incorrect or invalid
+			- goes to ??? @F2 to login or @MM with auto login or goes to @F2 with username already inputed ???
+
+	Graphical:
+		- 3 input box identical to @F2 login boxs
+		- erors for password not equal or invalid
+		- symbol or/and message for unique id confirmation
+		- confirmation button identical to sign up button but with different color
+		- cancel button
+		- space for keyboard with everything visible
+
+
+	Backend server:
+		- Contact the server for sign up
+		- Confirm in the server that the new user name is unique
+		- Add a new user to the database
+
+	Bakend user:
+		- auto send the request for unique username
+		- wait for comfirmation answer of sign up
+		- maybe auto login
+
+
+MM:
+	Story:
+		- Log out button
+		- Search Button @F4 
+		- Maybe list all albuns in a feed @F7
+		- Create album button @F3 bellow all the albuns and maybe a plus button @F3
+		- Press in an aalbum
+
+F3. Create albums:
+
+
+
+
+F8. View album:
+	Story:
+		- While viewing an album all the photos should show up 
+		- Also all the users the use album should show up somehow
+		- The photos are divided by users
+		- a user can add photos to the album @F5
+		- a user can add users to the album @F6
+		- a photo can be pressed and goes to @F8.1
+	Graphical:
+		- the title of the album appears on top
+		- all the photos appear in squares just like a normal galery
+		- the last photo is a plus button and if pressed goes to @F5
+		- an extra plus button on the top right corner to add photos (and users maybe) (?? maybe edit button??)
+		- A recycler view with two types of elements is present one for the owner and the other for the photo grid
+	Backend phone:
+		- get all photos from album
+
+
+F8.1 View Photo:
+	Story:
+		- After pressing a photo the user can see it in fullscreen with te date and owner information and the album name on top
+		- if the screen is pressed once more all the info desapears and only the photo stays
+		- if pressed again the info shows up again
+		- the user can swype right and left between photos
+		- to go back to @F8 the user can press the top left arrow or the back button
+	Graphical:	
+		- in a black backgroud 
+		- the date should be in the bottom left corner descrit
+		- the album name should be on the top
+		- the user should be somewhere
+		- the arrow to go back should appear automtacly
+		
+
+
+F4. Find users.
+
+
+F5. Add photos to albums.
+	Backend phone:
+		- get photos from the phone
+		- send the photos
+		
+
+
+F6. Add users to albums.
+	Story:
+		- a list of the already added users is presented in the center in a list
+		- the user presses the button add and all the possible new users to add appear just like the list there (?? the users already added appear but grayed out or something ??)
+		- (?? is also possible to remove users ??)
+		-
+
+
+F7. List user’s albums.
+	Note: incorporated in MM
+
+
+
+
+Questions:
+	Edit of the album shoudl always be avaible or there should be an edit screen for editing everything or both
+

@@ -1,0 +1,3 @@
+um indice para cada album
+saber quais os albuns que sao do utilizador e quais os outros albuns
+
