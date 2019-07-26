@@ -58,7 +58,8 @@ member, download its respective catalog, parse it, and download all the photos p
 using the URL contained in the catalog. We assume that the application provider is not malicious and does not
 willingly retrieve the catalogs and respective photos from the users' private stores. It is assumed that photos
 cannot be removed, albums deleted or users removed from an album’s membership.
-2.1.3 Wireless P2P architecture
+
+## Wireless P2P architecture
 In this version of the application, the photos are maintained in storage space allocated on album members
 devices and the photos are exchanged opportunistically in a P2P fashion between devices over WiFi Direct.
 The basic protocol is as follows. Each device manages local storage containing the photos published by the
@@ -75,8 +76,6 @@ server and cloud storage. Later, the solution should transition to the more adva
 stored on the server but files are exchanged based on WiFi Direct.
  
 ## Advanced Features
-In addition to the baseline features, students must also implement two advanced features (each worth circa 3
-points) in order to get the full 20 points as described below:
 
 1. A) Security: Design and implementation of a security mechanism to encrypt the catalog files and prevent a
 malicious application provider from retrieving users' catalogs and photos from their private stores.
